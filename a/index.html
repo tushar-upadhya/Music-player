@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Music</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="brand">
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/projects/404/dcaacc135865571.Y3JvcCwxMzgwLDEwODAsMjcwLDA.png "
+                        alt="logo"
+                    />
+                </li>
+
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                        <input
+                            id="search"
+                            class="form-control"
+                            type="search"
+                            placeholder="Search songs,artists & podcasts you love!"
+                            aria-label="Search"
+                        />
+                        <a href="#" id="searchA"
+                            ><svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                fill="currentColor"
+                                class="bi bi-search"
+                                viewBox="0 0 16 16"
+                            >
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                                /></svg
+                        ></a>
+                    </form>
+                </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Playlist</a></li>
+                <li><a href="#">Download_App</a></li>
+                <li><a href="#">SIGN_IN</a></li>
+            </ul>
+        </nav>
+        <!-- carousel -->
+
+        <div
+            id="carouselExampleRide"
+            class="carousel slide"
+            data-bs-ride="true"
+        >
+            <div class="carousel-inner">
+                <div class="carousel-item active cimage">
+                    <img
+                        src="https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_533,w_1024,x_0,y_100,f_auto,q_auto:eco/DSCF1084_C_vwiiaa/DSCF1084_C_vwiiaa.jpg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item cimage">
+                    <img
+                        src="https://i.insider.com/57c06136b996eb1c008b4aed?width=1200&format=jpeg"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+                <div class="carousel-item cimage">
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4YZVCKON3tewdOS8shnVVu6NrJk0WPL98jw&usqp=CAU"
+                        class="d-block w-100"
+                        alt="..."
+                    />
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- slider -->
+
+        
+
+
+
+
+
+        <div class="container">
+            <div class="songList">
+                <div class="songItemContainer">
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="1"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="2"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="3"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="4"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="5"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="6"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="7"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="8"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="1" />
+                        <span class="songName">StarBoy</span>
+                        <span class="songlistplay"
+                            ><span class="timestamp"
+                                >05:34
+                                <i
+                                    id="9"
+                                    class="bi songPlay bi-play-circle-fill"
+                                ></i> </span
+                        ></span>
+                    </div>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+
+        <div class="bottom">
+            <input
+                type="range"
+                name="range"
+                id="bar"
+                min="0"
+                value="0"
+                max="100"
+            />
+
+            <!-- icons -->
+            <div class="icons">
+                <i class="bi bi-skip-start-circle-fill" id="previous"></i>
+                <i class="bi bi-play-circle-fill" id="play"></i>
+                <i class="bi bi-skip-end-circle-fill" id="next"></i>
+            </div>
+
+            <div class="songInfo">
+                <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
