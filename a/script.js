@@ -9,11 +9,11 @@ let masterSongName = document.getElementById("masterSongName");
 let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs = [
-    {
-        songName: "Warriyo - Mortals [NCS Release]",
-        filePath: "https://www.youtube.com/watch?v=ZyiFeREyLYo",
-        coverPath: "covers/1.jpg",
-    },
+//     {
+//         songName: "Warriyo - Mortals [NCS Release]",
+//         filePath: "https://www.youtube.com/watch?v=ZyiFeREyLYo",
+//         coverPath: "covers/1.jpg",
+//     },
     {
         songName: "Cielo - Huma-Huma",
         filePath: "songs/2.mp3",
