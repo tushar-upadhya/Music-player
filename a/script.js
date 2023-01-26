@@ -11,7 +11,7 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 let songs = [
     {
         songName: "Warriyo - Mortals [NCS Release]",
-        filePath: "songs/1.mp3",
+        filePath: "https://www.youtube.com/watch?v=ZyiFeREyLYo",
         coverPath: "covers/1.jpg",
     },
     {
